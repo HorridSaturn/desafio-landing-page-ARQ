@@ -1,0 +1,137 @@
+*{
+margin: 0px;
+
+font-family: 'inter';
+}
+
+#menu-superior{
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+#menu-menu{
+    margin-left: 60px;
+}
+
+#titulo-menu-superior{
+
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: -1.5px;
+    
+}
+#texto-menu-superior{
+    font-weight: 500px;
+    font-size: 20px;
+    
+}
+#menu-informacional{
+   
+    background-color: #F9F9F9;
+    
+}
+#info-menu-informacional{
+    margin-left: 170px;
+    padding-bottom: 65px;
+    padding-top: 95px ;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    flex-shrink: 0;
+}
+.numero-menu{
+
+
+    font-size: 40px;
+    font-weight: 600;
+}
+.texto-menu{
+   
+    
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#menu-texto-imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#menu-menu2{
+   margin: 270px 65px 310px 75px;
+}
+
+
+#imagem{
+width: 505px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 30px;
+margin-top: 80px;
+margin-right: 50px;
+margin-bottom: 90px;
+
+}
+
+.titulo-do-2menu{
+
+font-size: 35px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.5px;
+}
+
+.texto-do-2menu{
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+}
+#formulario{
+    color: #FFF;
+    background-color: #303030;
+    text-align: center;
+}
+#titulo-formulario{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 85px;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 505px;
+    height: 75px;
+    color: rgba(0, 0, 0, 0.597);
+    font-family: 'Raleway';
+    margin: 30px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+button{
+    margin-top: 80px;
+    margin-bottom: 85px;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #C07212;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #d88b2c;
+    color: white;
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 20px #5d390ac1;
+    transition-duration: 0.5s;
+}
